@@ -16,7 +16,7 @@ sudo apt-get install python-pip
 ```
 
 ### Virtualenv and Dependencies
-Suggested that you run the project inside a virtualenv. It isolates your global python package library from your development package library. This reduces the risk of conflicts and reduces risk of you accidentally breaking python packages across your system.
+Suggested that you can run the project inside a virtualenv. It isolates your global python package library from your development package library. This reduces the risk of conflicts and reduces risk of you accidentally breaking python packages across your system.
 
 To globally install virtualenv run
 ```bash
@@ -49,7 +49,7 @@ To site is located at http://localhost:8080
 Deployment
 ==========
 
-Web server running python. Should really run on a solid database like MySQL in production and not on SQLite like in development. Having memcached installed and working in production is also a big plus.
+Web server running on python. We should really run on a solid database like MySQL in production and not on SQLite like in development. Having memcached installed and working into production is also a big plus point.
 
 
 Design info
